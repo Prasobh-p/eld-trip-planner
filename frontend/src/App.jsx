@@ -42,7 +42,7 @@ export default function App() {
     }
 
     try {
-      const res = await axios.post("http://127.0.0.1:8000/api/trip/", {
+      const res = await axios.post("https://sublinear-genie-ingrately.ngrok-free.app/api/trip/", {
         current: [values[0], values[1]],
         pickup: [values[2], values[3]],
         dropoff: [values[4], values[5]],
